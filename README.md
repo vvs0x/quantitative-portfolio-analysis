@@ -4,7 +4,7 @@ Quantitative analysis of a diversified investment portfolio over a one-year peri
 
 ### Project Structure
 
-```text
+```
 ├── data
 │   ├── processed
 │   └── raw
