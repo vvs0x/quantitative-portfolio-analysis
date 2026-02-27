@@ -8,7 +8,7 @@ Quantitative analysis of a diversified investment portfolio over a one-year peri
 ├── data
 │   ├── processed
 │   │   ├── nav_clean.csv
-│   │   ├── open_positions.csv
+│   │   ├── open_positions_clean.csv
 │   │   └── trades_clean.csv
 │   └── raw
 │       └── ibkr_data.csv
