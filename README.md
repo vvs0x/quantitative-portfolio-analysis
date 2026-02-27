@@ -4,11 +4,13 @@ In this Project I want to analyze my Investment Portfolio and gain insights and 
 
 ## Project Structure
 
-├── data\
-│   ├── processed\
-│   └── raw\
-├── figures\
-├── notebooks\
-├── pyproject.toml\
-├── README.md\
-└── src\
+```text
+├── data
+│   ├── processed
+│   └── raw
+├── figures
+├── notebooks
+├── pyproject.toml
+├── README.md
+└── src
+```
