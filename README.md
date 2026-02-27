@@ -6,9 +6,9 @@ In this Project I want to analyze my Investment Portfolio and gain insights and 
 
 ├── data\
 │   ├── processed\
-│   └── raw\\
-├── figures\\
-├── notebooks\\
-├── pyproject.toml\\
-├── README.md\\
-└── src\\
+│   └── raw\
+├── figures\
+├── notebooks\
+├── pyproject.toml\
+├── README.md\
+└── src\
