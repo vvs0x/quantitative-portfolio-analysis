@@ -14,3 +14,7 @@ Quantitative analysis of a diversified investment portfolio over a one-year peri
 ├── README.md
 └── src
 ```
+
+### Privacy Notice
+
+The actual portfolio data is not included in this repository for privacy reasons.
