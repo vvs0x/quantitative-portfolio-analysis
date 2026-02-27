@@ -7,12 +7,18 @@ Quantitative analysis of a diversified investment portfolio over a one-year peri
 ```
 ├── data
 │   ├── processed
+│   │   ├── nav_clean.csv
+│   │   ├── open_positions.csv
+│   │   └── trades_clean.csv
 │   └── raw
+│       └── ibkr_data.csv
 ├── figures
 ├── notebooks
+│   └── data_cleaning.ipynb
 ├── pyproject.toml
 ├── README.md
-└── src
+├── src
+└── uv.lock
 ```
 
 ### Privacy Notice
