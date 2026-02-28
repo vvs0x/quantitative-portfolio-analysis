@@ -1,8 +1,16 @@
 # Quantitative Portfolio Analysis
 
-Quantitative analysis of a diversified investment portfolio over a one-year period. This project evaluates performance metrics including risk-adjusted returns, maximum drawdown, and volatility analysis. The portfolio consists of equity ETFs, bond ETFs, alternative ETFs, and a mutual fund. Portfolio performance is benchmarked against the MSCI ACWI (All Country World Index).
+Quantitative analysis of a diversified investment portfolio over a one-year period. This project evaluates performance metrics including risk-adjusted returns, maximum drawdown, and volatility analysis. Portfolio performance is benchmarked against the MSCI ACWI index.
 
-### Project Structure
+# Portfolio Composition
+
+| Asset Allocation | Geographic Allocation |
+|------------------|-----------------------|
+| EQ | ~75% | Global developed markets |
+| FI | ~5% | Emerging markets exposure |
+| ALT's | ~20% | US-focused allocation |
+
+# Project Structure
 
 ```
 ├── data
@@ -22,6 +30,6 @@ Quantitative analysis of a diversified investment portfolio over a one-year peri
 └── uv.lock
 ```
 
-### Privacy Notice
+# Privacy Notice
 
 The actual portfolio data is not included in this repository for privacy reasons.
