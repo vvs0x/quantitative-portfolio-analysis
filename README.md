@@ -2,7 +2,7 @@
 
 Quantitative analysis of a diversified investment portfolio over a one-year period. This project evaluates performance metrics including risk-adjusted returns, maximum drawdown, and volatility analysis. Portfolio performance is benchmarked against the MSCI ACWI index.
 
-# Portfolio Composition
+### Portfolio Composition
 
 | Asset Allocation | Geographic Allocation |
 |------------------|-----------------------|
@@ -10,7 +10,7 @@ Quantitative analysis of a diversified investment portfolio over a one-year peri
 | FI | ~5% | Emerging markets exposure |
 | ALT's | ~20% | US-focused allocation |
 
-# Project Structure
+### Project Structure
 
 ```
 ├── data
@@ -30,6 +30,6 @@ Quantitative analysis of a diversified investment portfolio over a one-year peri
 └── uv.lock
 ```
 
-# Privacy Notice
+### Privacy Notice
 
 The actual portfolio data is not included in this repository for privacy reasons.
