@@ -6,7 +6,7 @@ Quantitative analysis of a diversified investment portfolio over a one-year peri
 
 | Asset Allocation | Geographic Allocation |
 |------------------|-----------------------|
-| EQ | ~75% | Global developed markets |
+| EQ | ~75% | |Global developed markets |
 | FI | ~5% | Emerging markets exposure |
 | ALT's | ~20% | US-focused allocation |
 
