@@ -4,11 +4,11 @@ Quantitative analysis of a diversified investment portfolio over a one-year peri
 
 ### Portfolio Composition
 
-| Asset Allocation | Geographic Allocation |
-|------------------|-----------------------|
-| EQ | ~75% | |Global developed markets |
-| FI | ~5% | Emerging markets exposure |
-| ALT's | ~20% | US-focused allocation |
+| Asset Class | Allocation | Geographic Focus |
+|------------|-----------|------------------|
+| Equity | ~75% | Global Developed |
+| Fixed Income | ~5% | US-Focused |
+| Alternatives | ~20% | Emerging Markets |
 
 ### Project Structure
 
