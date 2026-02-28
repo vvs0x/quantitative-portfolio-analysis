@@ -14,7 +14,8 @@ Quantitative analysis of a diversified investment portfolio over a one-year peri
 │       └── ibkr_data.csv
 ├── figures
 ├── notebooks
-│   └── data_cleaning.ipynb
+│   ├── data_cleaning.ipynb
+│   └── exploratory_data_analysis.ipynb
 ├── pyproject.toml
 ├── README.md
 ├── src
