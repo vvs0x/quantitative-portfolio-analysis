@@ -56,4 +56,5 @@ Desktop.ini
 *.tar.gz
 *.rar
 uv.lock
+.vscode
 
