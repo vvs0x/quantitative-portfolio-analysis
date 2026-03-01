@@ -39,10 +39,6 @@ poetry.lock
 Thumbs.db
 ehthumbs.db
 Desktop.ini
-*.png
-*.jpg
-*.jpeg
-*.pdf
 *.pkl
 *.pickle
 *.joblib
