@@ -1,6 +1,6 @@
 # Quantitative Portfolio Analysis
 
-Quantitative analysis of a diversified investment portfolio over a one-year period. This project evaluates performance metrics including risk-adjusted returns, maximum drawdown, and volatility analysis. Portfolio performance is benchmarked against the MSCI ACWI index.
+Quantitative analysis of a diversified investment portfolio over a one-year period. This project evaluates performance metrics including risk-adjusted returns, maximum drawdown, and volatility analysis. Portfolio performance is benchmarked against the MSCI ACWI index. The investment approach follows a long-term buy-and-hold strategy with portfolio rebalancing triggered by the 5/25 rule.
 
 ### Portfolio Composition
 
