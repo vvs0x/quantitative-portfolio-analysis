@@ -8,7 +8,17 @@ Portfolio Composition:
 |------------|-----------|
 | Equity | ~75% |
 | Fixed Income | ~5% |
-| Alternatives | ~20% | 
+| Alternatives | ~20% |
+
+Performance Metrics:
+
+| | My Portfolio | Benchmark |
+|---|---|---|
+| Total Return | 13.66% | 14.30% |
+| Ann. Return | 6.46% | 6.76% |
+| Ann. Volatility | 10.61% | 16.78% |
+| Sharpe | 0.61 | 0.40 |
+| Max Drawdown | -15.73% | -21.03% |
 
 ### Project Structure
 
