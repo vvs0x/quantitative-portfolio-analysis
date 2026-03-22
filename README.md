@@ -1,6 +1,6 @@
 # Quantitative Portfolio Analysis
 
-Quantitative analysis of a diversified investment portfolio over a two-year and five months period. This project evaluates performance metrics including risk-adjusted returns, maximum drawdown, and volatility analysis. Portfolio performance is benchmarked against the MSCI ACWI index. The investment approach follows a long-term buy-and-hold strategy with portfolio rebalancing triggered by the 5/25 rule.
+Quantitative analysis of a diversified investment portfolio over a two-year period, benchmarked against the FTSE Global All Cap Index. Evaluated key performance metrics including total return, maximum drawdown, and Sharpe ratio. The portfolio follows a long-term buy-and-hold strategy with rebalancing triggered by the 5/25 rule.
 
 ### Portfolio Composition
 
@@ -15,23 +15,18 @@ Quantitative analysis of a diversified investment portfolio over a two-year and 
 ```
 ├── data
 │   ├── processed
-│   │   ├── nav_clean.csv
-│   │   ├── open_positions_clean.csv
-│   │   └── trades_clean.csv
 │   └── raw
-│       ├── data1.csv
-│       ├── data2.csv
-│       ├── data3.csv
-│       └── info.txt
 ├── figures
-│   └── performance.png
+│   ├── cumr_and_drawdown.png
+│   └── metrics.tex
 ├── notebooks
-│   ├── data_cleaning.ipynb
-│   └── exploratory_data_analysis.ipynb
+│   └── portfolio_analysis.ipynb
 ├── pyproject.toml
 ├── README.md
 ├── src
-│   └── data_loader.py
+│   ├── __pycache__
+│   │   └── portfolio_weights.cpython-312.pyc
+│   └── portfolio_weights.py
 └── uv.lock
 ```
 
