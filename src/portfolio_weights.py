@@ -1,7 +1,7 @@
-import pandas
+import pandas as pd
 from ib_insync import IB
 
-def get_portfolio_weights(ib: IB) -> pd.DataFrame:
+def get_portfolio_weights(ib: IB):
 
     portfolio = ib.portfolio()
     

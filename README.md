@@ -2,7 +2,7 @@
 
 Quantitative analysis of a diversified investment portfolio over a two-year period, benchmarked against the FTSE Global All Cap Index. Evaluated key performance metrics including total return, maximum drawdown, and Sharpe ratio. The portfolio follows a long-term buy-and-hold strategy with rebalancing triggered by the 5/25 rule.
 
-### Portfolio Composition
+Portfolio Composition:
 
 | Asset Class | Allocation |
 |------------|-----------|
@@ -15,11 +15,13 @@ Quantitative analysis of a diversified investment portfolio over a two-year peri
 ```
 ├── data
 │   ├── processed
+│   │   └── portfolio_weights.json
 │   └── raw
 ├── figures
 │   ├── cumr_and_drawdown.png
 │   └── metrics.tex
 ├── notebooks
+│   ├── get_portfolio_weights.ipynb
 │   └── portfolio_analysis.ipynb
 ├── pyproject.toml
 ├── README.md
@@ -29,6 +31,15 @@ Quantitative analysis of a diversified investment portfolio over a two-year peri
 │   └── portfolio_weights.py
 └── uv.lock
 ```
+
+### Dependencies
+
+`ib-insync` — Interactive Brokers API client
+`yfinance` — Yahoo Finance historical data
+`pandas`, `numpy` — data manipulation
+`matplotlib` — visualization
+
+Managed via `uv` (see `pyproject.toml`).
 
 ### Privacy Notice
 
