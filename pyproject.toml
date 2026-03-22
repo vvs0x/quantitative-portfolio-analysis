@@ -1,16 +1,14 @@
 [project]
 name = "quantitative-portfolio-analysis"
 version = "0.1.0"
-description = "requirements for project"
+description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "ib-insync>=0.9.86",
     "ipykernel>=7.2.0",
-    "jupyterlab>=4.5.5",
     "matplotlib>=3.10.8",
-    "numpy>=2.4.2",
+    "numpy>=2.4.3",
     "pandas>=3.0.1",
-    "scipy>=1.17.1",
-    "seaborn>=0.13.2",
     "yfinance>=1.2.0",
 ]
