@@ -32,17 +32,17 @@ Portfolio positions are retrieved live from **Interactive Brokers** via the `ib_
 
 ```
 ├── data/
-│   ├── raw/                        # Raw price data
+│   ├── raw/                        
 │   └── processed/
-│       └── portfolio_weights.json  # Portfolio allocation weights
+│       └── portfolio_weights.json  
 ├── figures/
-│   ├── cumr_and_drawdown.png       # Cumulative returns & drawdown plot
-│   └── metrics.tex                 # LaTeX-formatted performance table
+│   ├── cumr_and_drawdown.png      
+│   └── metrics.tex            
 ├── notebooks/
-│   ├── get_portfolio_weights.ipynb  # Fetch positions from IBKR
-│   └── portfolio_analysis.ipynb     # Performance & risk analysis
+│   ├── get_portfolio_weights.ipynb 
+│   └── portfolio_analysis.ipynb    
 ├── src/
-│   └── portfolio_weights.py         # Helper for weight extraction
+│   └── portfolio_weights.py        
 ├── pyproject.toml
 └── uv.lock
 ```
