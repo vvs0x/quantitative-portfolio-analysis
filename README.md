@@ -1,4 +1,8 @@
-# Quantitative Portfolio Analysis
+<h1>
+<p align="center">
+  <br> Quantitative Portfolio Analysis
+</p>
+</h1>
 
 Quantitative analysis of a diversified investment portfolio over a two-year period, benchmarked against the FTSE Global All Cap Index (VT). The portfolio follows a long-term buy-and-hold strategy with rebalancing triggered by the **5/25 rule**. All prices are converted to CHF.
 
