@@ -10,23 +10,7 @@ Portfolio positions are retrieved live from **Interactive Brokers** via the `ib_
 
 ## Results
 
-### Portfolio Composition
-
-| Asset Class | Allocation |
-|---|---|
-| Equity | ~75% |
-| Fixed Income | ~5% |
-| Alternatives | ~20% |
-
-### Performance Metrics
-
-| | Portfolio | Benchmark (VT) |
-|---|---|---|
-| Total Return | 13.66% | 14.30% |
-| Annualized Return | 6.46% | 6.76% |
-| Annualized Volatility | 10.61% | 16.78% |
-| Sharpe Ratio | 0.61 | 0.40 |
-| Max Drawdown | -15.73% | -21.03% |
+![Results](figures/results.svg)
 
 ### Cumulative Returns & Drawdown
 
