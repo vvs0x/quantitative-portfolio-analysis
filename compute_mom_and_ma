@@ -1,0 +1,15 @@
+import pandas as pd
+
+# ma = df[<COLUMN>].rolling(<SIZE>).mean()
+df["MA_252"] = df["Close"].rolling(252).mean()
+df.plot(y = ["Close", "MA_252"])
+plt.ylabel("Price (CHF)")
+plt.show()
+
+# mom = df[<COLUMN>].rolling(<WINDOW>).apply(<FUNCTION>)
+mom = lambda x: x.iloc[-1] - x.iloc[0]
+df["Momentum"] = df["Close"].rolling(252).apply(mom)
+df.plot(y = "Momentum", color="green")
+plt.ylabel("Momentum (CHF)")
+plt.axhline(y=0, color="black")
+plt.show()
