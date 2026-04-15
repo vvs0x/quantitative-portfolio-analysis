@@ -16,33 +16,6 @@ Portfolio positions are retrieved live from **Interactive Brokers** via the `ib_
 
 ![Cumulative Returns and Drawdown](figures/cumr_and_drawdown.png)
 
-## Project Structure
-
-```
-├── data/
-│   ├── raw/                        
-│   └── processed/
-│       └── portfolio_weights.json  
-├── figures/
-│   ├── cumr_and_drawdown.png      
-│   └── metrics.tex            
-├── notebooks/
-│   ├── get_portfolio_weights.ipynb 
-│   └── portfolio_analysis.ipynb    
-├── src/
-│   └── portfolio_weights.py        
-├── pyproject.toml
-└── uv.lock
-```
-
-## Setup
-
-Requires Python >= 3.12. Dependencies are managed with [uv](https://github.com/astral-sh/uv).
-
-```bash
-uv sync
-```
-
 ## Privacy Notice
 
 Actual portfolio holdings and weights are not included in this repository. The data in `portfolio_weights.json` is from a paper trading account for demonstration purposes only.
